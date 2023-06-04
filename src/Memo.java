@@ -30,4 +30,9 @@ public class Memo {
         this.MemoDate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy년 MM월 dd일 HH시 mm분 ss초"));
     }
 
+    // 메모 내용 설정 메소드
+    public void setContext(String newContext) {
+        this.Context = newContext;
+    }
+
 }
